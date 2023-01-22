@@ -1,21 +1,21 @@
 # binaryClassification_practice
 Classifying movie reviews into positive or negative categories.
 
-Introduction
+# Introduction
 This notebook uses the review text to classify movie reviews into positive or negative categories. It's a two-class classification, or binary classification, which is an important and common kind of machine learning problem.
 
 The main goal of this task is to find a reliable way to evaluate the performance of the model so that the relationship between optimization and generalization, underfitting and overfitting could be monitored and observed, i.e, to find a balance in the tension.
 
 Note: the results of Min.V.Loss and Max.V.Acc in the Performance on Validation Set comparison chart: can not be rendered in exported html format, for more details, please check the notebook.
 
-Methodology
-Overview
-Feasibility
+# Methodology
+## Overview
+### Feasibility
 The IMDB dataset is from the nternet Movie Database (IMDB), which contains 50,000 movie review texts, half for training and half for testing. They contain an equal number of positive and negative reviews. It also has both reviews and labels which meet the conditions of training. This notebook uses tf.keras, which is a high-level API for building and training models in Tensorflow. The imdb datasets comes packaged with Keras, and it has already been turned into sequences of integers. This enables us to focus on model building, training, and evaluation.
 
 The problem is to classify positive and negative movie reviews, therefore it's two-class classification - each input sample should be classified into two mutually opposing categories.
 
-Workflow
+### Workflow
 Input preparation:
 
 Load dataset and understand the date structure
