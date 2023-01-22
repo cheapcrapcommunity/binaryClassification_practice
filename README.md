@@ -18,25 +18,31 @@ The problem is to classify positive and negative movie reviews, therefore it's t
 ### Workflow
 Input preparation:
 
-Load dataset and understand the date structure
-Vectorize the data: convert lists into tensors
+- Load dataset and understand the date structure
+- Vectorize the data: convert lists into tensors
+
 Model building:
 
-Build a basic model that has statistical power
+- Build a basic model that has statistical power
+
 Validating the approach:
 
-Use a validation set to monitor the accuracy of the model during training.
+- Use a validation set to monitor the accuracy of the model during training.
+
 Developing a model that overfits:
 
-Scale up the model
+- Scale up the model
+
 Hyperparameter tunning:
 
-Learning rate, momentum, batch size
-Regularization: dropout layers, l1/l2/l1_l2 regularization method
-Grid search/random search
+- Learning rate, momentum, batch size
+- Regularization: dropout layers, l1/l2/l1_l2 regularization method
+- Grid search/random search
+
 Retrain:
 
-Retrain with entire training set and evaluate on the unseen test set
+- Retrain with entire training set and evaluate on the unseen test set
+
 Conclusion:
 
-Summarize the training observation
+- Summarize the training observation
