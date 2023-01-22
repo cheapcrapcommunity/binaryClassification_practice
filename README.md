@@ -6,7 +6,6 @@ This notebook uses the review text to classify movie reviews into positive or ne
 
 The main goal of this task is to find a reliable way to evaluate the performance of the model so that the relationship between optimization and generalization, underfitting and overfitting could be monitored and observed, i.e, to find a balance in the tension.
 
-Note: the results of Min.V.Loss and Max.V.Acc in the Performance on Validation Set comparison chart: can not be rendered in exported html format, for more details, please check the notebook.
 
 # Methodology
 ## Overview
